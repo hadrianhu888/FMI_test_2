@@ -1,0 +1,290 @@
+[test_fmu_v3/Test_In_Out_FMU] mdlStart()
+[test_fmu_v3/Test_In_Out_FMU] mdlEnable()
+[test_fmu_v3/Test_In_Out_FMU] fmi3InstantiateCoSimulation(instanceName="test_fmu_v3/Test_In_Out_FMU", instantiationToken="{215efcaa-77a9-424c-8dc7-1b7a98b1376d}", resourcePath="F:\GitHubRepos\Test_FMU_2\test_fmu/resources", visible=0, loggingOn=1, eventModeUsed=0, earlyReturnAllowed=0, requiredIntermediateVariables=0x0000000000000000, nRequiredIntermediateVariables=0, instanceEnvironment=0x000002AD077120E0, logMessage=0x00007FFEAC8F72E0, intermediateUpdate=0x0000000000000000) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3EnterConfigurationMode() -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3ExitConfigurationMode() -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3EnterInitializationMode(fmi3EnterInitializationMode(toleranceDefined=[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=0, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:0.000000 -[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=0, majorTimeStep=1)
+[test_fmu[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=0, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] [test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=0, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3SetFlo[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=0.2, majorTimeStep=1)[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=0.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=0, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=0.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=0.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=0.2, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=0.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=0.6000000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=0.4, communicationStepSize=0.2000000000000001, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.6000000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=0.6000000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=0.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=0.6000000000000001, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=0.8) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=0.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=1, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=0.8, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=1, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=1.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=1, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=1.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=1.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=1.2, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=1.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=1.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=1.4, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.6) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=1.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=1.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=1.6, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=1.8) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=1.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=1.8, communicationStepSize=0.2, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=2.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=2.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=2.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=2.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=2.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=2.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=2.4, communicationStepSize=0.1999999999999997, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.6) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=2.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=2.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=2.6, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=2.8) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=2.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=3, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=2.8, communicationStepSize=0.1999999999999997, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=3, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=3.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=3, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=3.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=3.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=3.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=3.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=3.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=3.4, communicationStepSize=0.1999999999999997, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3.6) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=3.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=3.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=3.6, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=3.8) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=3.8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=3.8, communicationStepSize=0.1999999999999997, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=4.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=4, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=4.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=4.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=4.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=4.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=4.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=4.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=4.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=4.4, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=4.600000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=4.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=4.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=4.600000000000001, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=4.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=4.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=5, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=4.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=5) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=5, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=5.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=5, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=5.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=5.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=5.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=5.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=5.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=5.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=5.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=5.4, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=5.600000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=5.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=5.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=5.600000000000001, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=5.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=5.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=5.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=6) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=6.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=6, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=6.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=6.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=6.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=6.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=6.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=6.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=6.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=6.4, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=6.600000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=6.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=6.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=6.600000000000001, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=6.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=6.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=7, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=6.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=7) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=7, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=7.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=7, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=7.2) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=7.2, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=7.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=7.2, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=7.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=7.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=7.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=7.4, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=7.600000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=7.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=7.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=7.600000000000001, communicationStepSize=0.2000000000000002, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=7.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=7.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=7.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=8) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=8.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=8, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=8.200000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=8.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=8.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=8.200000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=8.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=8.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=8.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=8.4, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=8.6) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=8.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=8.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=8.6, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=8.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=8.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=9, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=8.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=9) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=9, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=9.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=9, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=9.200000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=9.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=9.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=9.200000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=9.4) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=9.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=9.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=9.4, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=9.600000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=9.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=9.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=9.600000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=9.800000000000001) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=9.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlOutputs(tid=0, time=10, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] fmi3DoStep(currentCommunicationPoint=9.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0, eventEncountered=0, terminate=0, earlyReturn=0, lastSuccessfulTime=10) -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3GetFloat64(valueReferences={3}, nValueReferences=1, values={10}, nValues=1) -> OK
+[test_fmu_v3/Test_In_Out_FMU] mdlUpdate(tid=0, time=10, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU] mdlTerminate()
+[test_fmu_v3/Test_In_Out_FMU] fmi3Terminate() -> OK
+[test_fmu_v3/Test_In_Out_FMU] fmi3FreeInstance() -> OK
+olver will do 1 steps from t = 7.800000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=7.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=8, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=8.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.2000000000000011, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 8. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=8, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=8.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=8.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 8.200000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=8.200000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=8.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=8.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 8.4. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=8.4, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=8.6, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=8.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.2000000000000011, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 8.6. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=8.6, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=8.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=9, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 8.800000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=8.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=9, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=9.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.2000000000000011, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 9. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=9, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=9.200000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=9.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 9.200000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=9.200000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=9.4, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=9.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.2000000000000011, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 9.4. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=9.4, communicationStepSize=0.2000000000000011, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=9.600000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=9.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 9.600000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=9.600000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=9.800000000000001, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlOutputs(tid=0, time=10, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] CommunicationStepSize=0.1999999999999993, LocalSolverStepSize=0.2 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] Local solver will do 1 steps from t = 9.800000000000001. -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2DoStep(currentCommunicationPoint=9.800000000000001, communicationStepSize=0.1999999999999993, noSetFMUStatePriorToCurrentPoint=0) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] getReal vr:1, value:10.000000 -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2GetReal(vr={1}, nvr=1, value={10}) -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] mdlUpdate(tid=0, time=10, majorTimeStep=1)
+[test_fmu_v3/Test_In_Out_FMU_1] mdlTerminate()
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2Terminate() -> OK
+[test_fmu_v3/Test_In_Out_FMU_1] fmi2FreeInstance() -> OK
